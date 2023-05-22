@@ -8,6 +8,7 @@ const Search = ({ onSearchChange }) => {
   const loadOptions = async (inputValue) => {
     const citiesList = await fetchCities(inputValue);
 
+
     return {
       options: citiesList.data.map((city) => {
         return {
