@@ -42,7 +42,6 @@ function App() {
         dt_now
       );
 
-
       const all_week_forecasts_list = getWeekForecastWeather(
         weekForecastResponse,
         ALL_DESCRIPTIONS
