@@ -5,6 +5,7 @@ import { Typography } from '@mui/material';
 
 export default function ErrorBox(props) {
   return (
+
     <Box
       display={props.display || 'flex'}
       justifyContent={props.justifyContent || 'center'}
