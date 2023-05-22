@@ -36,7 +36,6 @@ export async function fetchCities(input) {
       `${GEO_API_URL}/cities?minPopulation=10000&namePrefix=${input}`,
       GEO_API_OPTIONS
     );
-
     const data = await response.json();
     return data;
   } catch (error) {
