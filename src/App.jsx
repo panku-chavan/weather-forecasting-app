@@ -41,12 +41,10 @@ function App() {
         currentDate,
         dt_now
       );
-
       const all_week_forecasts_list = getWeekForecastWeather(
         weekForecastResponse,
         ALL_DESCRIPTIONS
       );
-
       setTodayForecast([...all_today_forecasts_list]);
       setTodayWeather({ city: enteredData.label, ...todayWeatherResponse });
       setWeekForecast({
